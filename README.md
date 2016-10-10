@@ -1,4 +1,5 @@
 # skillslab-sprint-2-fellygoh
 
-Travelling blog
-5 page project
+2 files respectively.
+- Travelling blog for final assignment
+- Progress of learning from Lynda.com
