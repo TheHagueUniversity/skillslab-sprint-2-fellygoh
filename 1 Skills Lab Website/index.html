@@ -5,13 +5,17 @@
 <meta charset="UTF-8">
 <title>Journey with F</title>
 <link href="style.css" type="text/css" rel="stylesheet">
-
+<!-- the stylesheet cannot be found like this, because it's inside the CSS folder.
+You should change the href into href="css/style.css"
+-->
 </head>
 
 
 <body>
 <div id="main">
-
+<!--
+if this is the header of your website, you should add <header> tags around it
+-->
 <div id="logo">
 	<div>
 		<a href="index.htm" id="logo"><img scr="image/logo.png" alt="logo"></a>
@@ -21,18 +25,20 @@
 <hr>
 
 <div id="nav">
+<!-- Don't use a <div id="nav"> but just the <nav> element -->
 	<div>
+<!-- Use <ul> and <li> for the navigation, place each menu item in <li>'s -->
 				<a href="index.htm" class="button1">HOME</a>
-			
+			<!-- try to use semantic classnames, so tell what they do, for instance nav-button would be a better name, or active/inactive -->
 				<a href="about.htm" class="button1">ABOUT</a>
-			
-			
+
+
 				<a href="blog.htm" class="button1">BLOG</a>
-			
+
 				<a href="Gallery.htm" class="button1">GALLERY</a>
-			
+
 				<a href="Contact.htm" class="button1">CONTACT</a>
-			
+
 	</div>
 
 <hr>
