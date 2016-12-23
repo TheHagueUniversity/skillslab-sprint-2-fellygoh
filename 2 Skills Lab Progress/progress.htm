@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="description" content="A page for exploring basic HTML documents">
+  <title>Basic HTML document - Felicia's Progress</title>
+  </head>
+  <body>
+    <h1>Felicia's Progress</h1>
+
+    <h2>Page content</h2>
+    <p>The main page content appears inside the <b>body</b> tag. HTML contains several elements that allow you to properly structure and format your content, which we'll cover later.</p>
+    <p>In HTML5 new content models have been created to expand the structure and semantic capabilities of HTML. There are seven main models: <b>Flow, Metadata, Embedded, Interactive, Heading, Phrasing, and Sectioning</b>. To learn more about them, visit the <a href="http://www.w3.org/TR/html5/dom.html#kinds-of-content">interactive graphic</a> contained in the W3C HTML5 specfication.</p>
+
+    <h2>Adding Headings</h2>
+    Headings help define the structure of the page and control the hierarchy of the content. You can use heading values ranging from a top-level heading of h1 all the way down to an h6. While there are several competing theories on the exact strategy to use when choosing headings, what really matters is that you are using them in an intelligent  manner, to accurately reflect the importance of your content. It's also important to be consistent in how you use headings across your site, so deciding on when and how to use headings is an important part of planning your site.
+
+    <h2>Emphasis</h2>
+    <b>Bold</b><br>
+    <strong>Strong</strong><br>
+    <i>Italic</i><br>
+    <em>Emphasis</em>
+
+    <h2>Line breaks</h2>
+    <p>Occasionally you'll need to perform a "soft return," that is, create a new line without using a new paragraph. To do that in HTML, you use the line break tag (&lang;br&rang;). Line break tags are inline, meaning you can use them within headers and paragraphs, and don't require a closing tag.</p>
+
+    <h2>Special</h2>
+    Use " to make "<" appear on webpage.<br>
+    <p>Certain characters are reserved for HTML, meaning that you aren't allowed to use them in regular content. Using a left angle bracket like this "&lang;" in your code can cause rendering issues in certain situations. Other characters are special characters or symbols that might not be available through the keyboard, or are used by other languages. To represent those characters in normal text, you can use what are known as named character entities.</p>
+    <p>These are special codes that the browser or user agent will then replace with the requested character. The syntax for them is relatively straightforward. You start with an ampersand (&amp;) followed by the named entity that is then followed by a semicolon. To display an ampersand, for example, you would type in &amp;amp;. This can be extremely helpful when displaying &copy; and &trade; symbols, or writing mathematical formulas.</p>
+    <p>You can find a very thorough list of named character entities on <a href="http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references">Wikipedia</a>.</p>
+
+    <h2>White Space</h2>
+    <p>The use of ("&"nbsp"). Try it here. &nbsp;&nbsp;&nbsp; Add as much white space as you want here.</p>
+    <p>Keep in mind that the primary purpose of the non-breaking space is to inform browsers when a line break shouldn't occur during a string of text. For example, adding a non-breaking space between Formula&nbsp;One would ensure that a line break never occurs that would split up the words Formula and One. To that end, never use the non-breaking space character to control paragraph indentations or fake a tab character. CSS should control that type of visual formatting.</p> 
+
+    <h2>Images</h2>
+    <img src="_imagesprogress/logo.png" width="300" height="400" alt="logo">
+    <b>alt</b> text is important
+    <b>align</b> attribute for image/paragraph now depends on CSS
+
+    <h2>Comments</h2>
+    Adding comments on HTML.
+    <!--This is a comment!-->
+
+    <h2>Link Types</h2>
+    <p>There are three basic types of link: absolute, site-root relative, and document relative.</p>
+
+    <h2>Fragment identifiers</h2>
+<p>Occasionally you&rsquo;ll want a link to refer to a specific location within a page. This can be done using a special kind of link called a fragment identifier. These links point to elements with a specific <b>ID</b> attribute. Let&rsquo;s say, for example, you have a long list of <b>FAQs</b> on a page organized by categories and you had a heading at the top of each category. If you assigned each heading an ID attribute, you could use those IDs to create a links that jump to specific categories. For example, you could format the Camping FAQs heading like this:</p>
+<pre>&lt;h2 id=&rdquo;camp&rdquo;&gt;Camping&lt;/h2&gt;</pre>
+<p> Elsewhere on the page you could link to this section by creating the following link:</p>
+<pre>&lt;a href=&rdquo;#camp&rdquo;&gt;Learn more about camping&lt;/a&gt;</pre>
+<p> Note the hash symbol (#) prior to the ID value. This tells the browser to look for an element with the ID value that follows.You can link to fragment identifiers on external pages as well. Simply append the fragment identifier to the URL and the link will jump to not only to that page, but that specific section as well.</p>
+<pre>&lt;a href=&rdquo;faq.htm#camp&rdquo;&gt;Read our FAQ on camping.&lt;/a&gt;</pre>
+
+  </body>
+</html>
