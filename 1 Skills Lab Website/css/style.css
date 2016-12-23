@@ -1,0 +1,333 @@
+body {
+	background: transparent;
+}
+
+
+/* LOGO & BG */
+.site-logo {
+    float: left;
+	width: 240px;
+	height: 90px;
+	margin-left: 88px;
+	margin-top: 41px;
+
+}
+
+.site-header {
+    background-image: url("/Users/fellygoh/Desktop/skillslab-sprint-2-fellygoh/1 Skills Lab Website/images/mainpageimage1.jpg"); /*BG IMG*/
+    background-position:center;
+    background-size:cover;
+    /* viewport */
+    height:100vh;
+}
+
+.site-headerabout {
+    background-image: url("/Users/fellygoh/Desktop/skillslab-sprint-2-fellygoh/1 Skills Lab Website/images/aboutimage1.jpg"); /*BG IMG*/
+    background-position:center;
+    background-size:cover;
+    /* viewport */
+    height:100vh;
+}
+
+
+.site-headercountries {
+    background-image: url("/Users/fellygoh/Desktop/skillslab-sprint-2-fellygoh/1 Skills Lab Website/images/countriesimage.jpg"); /*BG IMG*/
+    background-position:center;
+    background-size:cover;
+    /* viewport */
+    height: 100vh;
+}
+
+
+.site-headercontact {
+    background-image: url("/Users/fellygoh/Desktop/skillslab-sprint-2-fellygoh/1 Skills Lab Website/images/contactimage1.jpg"); /*BG IMG*/
+    background-position:center;
+    background-size:cover;
+    /* viewport */
+    height:100vh;
+}
+
+/* NAVIGATION */
+
+
+
+a:hover img {
+    opacity:0.8;
+    display: block;
+}
+
+a:hover, a.active {
+    background-color: #000;
+    color: #FFF;
+}
+
+.site-nav {
+    float: right;
+    margin-top: 45px;
+    margin-right: 88px;
+}
+
+
+.site-nav ul {
+    list-style:none;
+}
+
+/*following does not work
+ul.pagination li a.active {
+    background-color: #000;
+    color: white;
+}
+
+ul.pagination li a.active{
+    background-color: #000;
+}
+
+*/
+
+
+.site-nav li {
+    float:left;
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+
+
+.button-main{
+	padding: 8px 16px;
+	display: inline-block;
+	text-decoration: none;
+	font:18px "Helvetica", Arial;
+	background-color: transparent;
+	color: #000000;
+	border: 0;
+}
+
+
+.button-main:hover {
+    background-color: black; /* Black */
+    color: white;
+    display: block;
+}
+
+.button-main {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+
+
+
+
+.main{
+	width: 100%;
+	height: 100%;
+	background: #FFFFFF;
+	margin: 25px auto;
+	padding: 10px;
+}
+
+.main-content {
+	align-items: center;
+}
+
+
+h1 {
+    font-family: "Helvetica";
+    font-size: 25pt;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #1C2833;
+}
+
+h2 {
+    padding-top: 20px;
+    font-family: "Helvetica";
+    font-size: 20pt;
+    text-align: center;
+    color: #1C2833;
+}
+
+
+/* IMAGE BUTTON */
+
+img {
+    max-width:100%;
+    display:block;
+}
+
+.self {
+    padding-left: 500px;
+    width: 250px;
+    height: 250px;
+}
+
+
+figcaption {
+    font-family: "Times New Roman";
+    text-align: center;
+    margin-left: -40px;
+}
+
+iframe {
+    margin-left: 300px;
+}
+
+/* to use the padding left on the children */
+.grid {
+    margin-left:-40px;
+}
+
+/* to clear the float */
+.grid::after {
+    display:table;
+    clear:both;
+    content:'';
+}
+
+/* BEM naming convention */
+.grid__item {
+    float: left;
+    padding-left: 45px;
+}
+
+.one-third {
+    width: 30%;
+}
+
+
+/* add some padding */
+.padding {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px
+}
+
+
+p {
+	color: #273746;
+}
+
+.textpara {
+    font-family: "Times New Roman";
+    text-align: left;
+    font-size: 15pt;
+    padding-left: 350px;
+    padding-right: 350px; 
+    line-height: 200%;
+}
+
+.centertext {
+    text-align: center;
+    font-size: 14pt;
+    padding-left: 350px;
+    padding-right: 350px; 
+    line-height: 200%;
+}
+
+
+.address {
+    padding-top: 10px;
+    text-align: center;
+    font-size:15pt;
+}
+
+/*         MAP            */
+#map {
+    width: 60%;
+    height: 500px;
+    margin-left: 285px;
+    margin-top: 50px;
+}
+
+
+
+/*          FORM           */
+
+label {
+    float: left;
+    width: 300px;
+    text-align: right;
+    padding-right: 12px;
+    margin-top: 15px;
+    clear: left;
+}
+
+
+input, textarea, select { 
+    margin-top: 15px; 
+    width: 250px;
+}
+
+.formfont {
+    text-indent: 0px;
+    text-align: left;
+    font-family: "Arial";
+    font-size: 14pt;
+}
+
+.formwrap {
+    width: 60%;
+    background-color: #E5F0FA;
+    margin-left: 280px;
+    margin-top: 20px;
+}
+
+.formDiv {
+    margin-top: 50px;
+}
+
+#theSubmit {
+    margin-left: 175px;
+    padding: 15px;
+}
+
+
+
+.foot {
+	text-align: center;
+    font-size: 10pt;
+	color: white;
+}
+
+/* COUNTRIES ASIA BUTTONS */
+.titles {
+	margin-left: -10px;
+}
+
+.paralline1 {
+    background:url("/Users/fellygoh/Desktop/skillslab-sprint-2-fellygoh/1 Skills Lab Website/images/asiabanner.jpg") fixed 0%;
+    height: 700px;
+    width:  1400px;
+}
+
+.paralline2 {
+    background:url("/Users/fellygoh/Desktop/skillslab-sprint-2-fellygoh/1 Skills Lab Website/images/EUbanner.jpg") fixed 10%;
+    height: 700px;
+    width:  1400px;
+}
+
+.paralline3 {
+    background:url("/Users/fellygoh/Desktop/skillslab-sprint-2-fellygoh/1 Skills Lab Website/images/ausbanner.jpg") fixed 10%;
+    height: 700px;
+    width:  1400px;
+}
+
+.paralline4 {
+    background:url("/Users/fellygoh/Desktop/skillslab-sprint-2-fellygoh/1 Skills Lab Website/images/livebanner.jpg") fixed 10%;
+    height: 700px;
+    width:  1400px;
+}
+
+.socialbutton {
+	padding-left: 50%;
+}
+
+/* FOOTER */
+.site-footer {
+    background: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
