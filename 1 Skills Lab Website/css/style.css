@@ -14,7 +14,7 @@ body {
 }
 
 .site-header {
-    background-image: url("/Users/fellygoh/Desktop/skillslab-sprint-2-fellygoh/1 Skills Lab Website/images/mainpageimage1.jpg"); /*BG IMG*/
+    background-image: url("../images/mainpageimage1.jpg"); /*BG IMG*/
     background-position:center;
     background-size:cover;
     /* viewport */
@@ -22,7 +22,7 @@ body {
 }
 
 .site-headerabout {
-    background-image: url("/Users/fellygoh/Desktop/skillslab-sprint-2-fellygoh/1 Skills Lab Website/images/aboutimage1.jpg"); /*BG IMG*/
+    background-image: url("../images/aboutimage1.jpg"); /*BG IMG*/
     background-position:center;
     background-size:cover;
     /* viewport */
@@ -31,7 +31,7 @@ body {
 
 
 .site-headercountries {
-    background-image: url("/Users/fellygoh/Desktop/skillslab-sprint-2-fellygoh/1 Skills Lab Website/images/countriesimage.jpg"); /*BG IMG*/
+    background-image: url("../images/countriesimage.jpg"); /*BG IMG*/
     background-position:center;
     background-size:cover;
     /* viewport */
@@ -40,7 +40,7 @@ body {
 
 
 .site-headercontact {
-    background-image: url("/Users/fellygoh/Desktop/skillslab-sprint-2-fellygoh/1 Skills Lab Website/images/contactimage1.jpg"); /*BG IMG*/
+    background-image: url("../images/contactimage1.jpg"); /*BG IMG*/
     background-position:center;
     background-size:cover;
     /* viewport */
@@ -214,7 +214,7 @@ p {
     text-align: left;
     font-size: 15pt;
     padding-left: 350px;
-    padding-right: 350px; 
+    padding-right: 350px;
     line-height: 200%;
 }
 
@@ -222,7 +222,7 @@ p {
     text-align: center;
     font-size: 14pt;
     padding-left: 350px;
-    padding-right: 350px; 
+    padding-right: 350px;
     line-height: 200%;
 }
 
@@ -255,8 +255,8 @@ label {
 }
 
 
-input, textarea, select { 
-    margin-top: 15px; 
+input, textarea, select {
+    margin-top: 15px;
     width: 250px;
 }
 
@@ -297,25 +297,25 @@ input, textarea, select {
 }
 
 .paralline1 {
-    background:url("/Users/fellygoh/Desktop/skillslab-sprint-2-fellygoh/1 Skills Lab Website/images/asiabanner.jpg") fixed 0%;
+    background:url("../images/asiabanner.jpg") fixed 0%;
     height: 700px;
     width:  1400px;
 }
 
 .paralline2 {
-    background:url("/Users/fellygoh/Desktop/skillslab-sprint-2-fellygoh/1 Skills Lab Website/images/EUbanner.jpg") fixed 10%;
+    background:url("../images/EUbanner.jpg") fixed 10%;
     height: 700px;
     width:  1400px;
 }
 
 .paralline3 {
-    background:url("/Users/fellygoh/Desktop/skillslab-sprint-2-fellygoh/1 Skills Lab Website/images/ausbanner.jpg") fixed 10%;
+    background:url("../images/ausbanner.jpg") fixed 10%;
     height: 700px;
     width:  1400px;
 }
 
 .paralline4 {
-    background:url("/Users/fellygoh/Desktop/skillslab-sprint-2-fellygoh/1 Skills Lab Website/images/livebanner.jpg") fixed 10%;
+    background:url("../images/livebanner.jpg") fixed 10%;
     height: 700px;
     width:  1400px;
 }
@@ -330,4 +330,3 @@ input, textarea, select {
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
